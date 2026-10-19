@@ -1,0 +1,26 @@
+{
+  "retrieved_on": "2026-10-14",
+  "projects": [
+    {
+      "name": "F5-TTS",
+      "official_source": "https://github.com/SWivid/F5-TTS",
+      "local_directory": "projects/F5-TTS",
+      "commit": "d852486451313ab31924303f6120e1aa19a208ce",
+      "weights_downloaded": false
+    },
+    {
+      "name": "SadTalker",
+      "official_source": "https://github.com/OpenTalker/SadTalker",
+      "local_directory": "projects/SadTalker",
+      "commit": "cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8",
+      "weights_downloaded": false
+    },
+    {
+      "name": "LivePortrait",
+      "official_source": "https://github.com/KlingAIResearch/LivePortrait",
+      "local_directory": "projects/LivePortrait",
+      "commit": "9b294b3d0536135442ea73cb01e6cb3ca7029dd3",
+      "weights_downloaded": false
+    }
+  ]
+}

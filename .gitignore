@@ -1,0 +1,12 @@
+.envs/
+__pycache__/
+*.pyc
+assets/input/*.wav
+assets/input/*.m4a
+assets/input/*.jpg
+assets/input/*.png
+assets/input/*.mp4
+assets/output/*
+!assets/output/.gitkeep
+projects/*/checkpoints/
+projects/*/pretrained_weights/

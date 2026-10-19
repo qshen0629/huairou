@@ -1,0 +1,12 @@
+本目录目前没有真人照片、录音或视频。请只放入你本人或明确授权成人的素材。
+
+teacher_reference.wav：按 teacher_reference.txt 录制 8–10 秒自然讲话，单人、无配乐，结尾留约 1 秒停顿，总长小于 12 秒。若实际台词不同，请同步修改 txt。
+teacher.jpg：正面、单人、均匀光线、嘴巴自然闭合，建议 512 像素以上。不要使用学生照片。
+teacher_real.wav：你本人读 comparison_text.txt 的原声，用于和合成声音比较。与参考录音分开。
+teacher_driving.mp4：可选，5–8 秒点头、微笑、眨眼的动作视频，第一帧正面自然表情，头部为主，不大幅晃动肩膀。它用于 LivePortrait，不用于音频对口型。
+
+本目录的 txt 是建议台词，不是假装已经录好的声音。
+comparison_text.txt：A/B 对照台词，你录一份原声，模型再生成一份，二者读同一句。
+demo_text.txt：开场分身台词，只由模型生成，不用你录原声。它与 A/B 对照台词分开。
+模型先生成 01_voice_ai.wav 用于 A/B，再生成 00_opening_voice_ai.wav 用于视频；talking 默认使用后一份。
+课件的媒体位置目前是占位框，生成后应把音频/视频插入 PPT。
